@@ -53,6 +53,70 @@ nav ul li a:hover {
     color: #f39c12; /* Color naranja al hacer hover */
 }
 
+
+/* Estilos generales del menú */
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    margin-left: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #F0F8FF;
+}
+
+/* Estilos para el botón de hamburguesa */
+.menu-hamburguesa {
+    display: none; /* Oculto por defecto */
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .menu-hamburguesa {
+        display: block; /* Mostrar el botón en móviles */
+    }
+
+    .menu {
+        display: none; /* Ocultar el menú por defecto en móviles */
+        flex-direction: column;
+        position: absolute;
+        top: 60px; /* Ajusta según la altura de tu barra superior */
+        right: 0;
+        background-color: #333;
+        width: 100%;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu ul li {
+        margin: 10px 0;
+    }
+
+    .menu.active {
+        display: flex; /* Mostrar el menú cuando esté activo */
+    }
+}
+
+
 /* ✅ ESTILO ENCABEZADO */
 header {
     position: relative;
