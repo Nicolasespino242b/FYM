@@ -83,6 +83,8 @@ nav ul li a:hover {
     background: none;
     border: none;
     cursor: pointer;
+    margin-right: 25px; /* Añade margen a la derecha */
+    padding: 15px; /* Añade padding para más espacio alrededor del ícono */
 }
 
 /* Estilos para dispositivos móviles */
