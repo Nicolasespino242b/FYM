@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head> 
+<body>
+
+<div id="menu">
+  <div class="topnav" id="myTopnav">
+    <a href="index.html"> Inicio</a>
+    <a href="equipo.html"> Equipo</a>
+    <a href="contacto.html" class="active"> Contacto</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+     </a>
+    </div>
+    </div>  
+  
+  <div class="col-12" id="bannercontacto">
+  </div>
+  
+  <div class="col-12">
+    <h1>Contacto</h1>
+  </div>
+  
+  <div class="col-6 bordesitio">
+    <label for="fname">Nombre:</label>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Email:</label>
+    <input type="text" id="lname" name="lname"><br>
+    <label>Mensaje:</label>
+    <textarea name="Mensaje"></textarea><br>
+    <label>¿Deseas recibir novedades por mail?</label><br>
+    <input type="radio" name="novedades" value="si" checked> Si
+    <input type="radio" name="novedades" value="no" checked> No<br>
+    <input type="submit" value="enviar">
+  </div><br>
+  
+<div class="col-6 bordesitio">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.836818806742!2d-122.71847322323046!3d45.53348922881237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549509eb028f4011%3A0xec21c061db8ae6bd!2s3333%20NW%20Quimby%20St%2C%20Portland%2C%20OR%2097210%2C%20USA!5e0!3m2!1sen!2suy!4v1686343905066!5m2!1sen!2suy" width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div>
+    
+<div class="col-12" id="footer">   
+    <img src="img/logo.png">
+    <h4>Espino Borges Nicolás Fabricio, Galcerán Nogueira Agustina Belén, Martínez Pignataro María Belén</h4>
+    <h5>PAI | LDCV | 2023 </h5> 
+</div>
+
+<script type="text/javascript">
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+ </html>
