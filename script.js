@@ -21,3 +21,12 @@ setInterval(showNextItem, 5000);
 document.addEventListener("DOMContentLoaded", () => {
     carruselItems[0].classList.add("active");
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const menuHamburguesa = document.querySelector('.menu-hamburguesa');
+    const menu = document.querySelector('.menu');
+
+    menuHamburguesa.addEventListener('click', function() {
+        menu.classList.toggle('active');
+    });
+});
