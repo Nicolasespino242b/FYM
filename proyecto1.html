@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remodelación de Baño - Constructora FYM</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Helvetica+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Barra superior con logo y menú -->
+    <div class="barra-superior">
+        <img src="logo.png" alt="Logo Constructora FYM" class="logo">
+        <!-- Botón del menú hamburguesa -->
+        <button class="menu-hamburguesa" aria-label="Abrir menú">&#9776;</button>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Contenido del proyecto -->
+    <section class="detalle-proyecto">
+        <h1>Remodelación de Baño</h1>
+        
+        <!-- Sección de Antes y Después -->
+        <div class="antes-despues">
+            <h2>Antes y Después</h2>
+            <div class="grid-antes-despues">
+                <div class="antes">
+                    <img src="baño/antes.jpg" alt="Baño antes de la remodelación">
+                    <p><strong>Antes:</strong> El baño original con diseño anticuado y problemas de espacio.</p>
+                </div>
+                <div class="despues">
+                    <img src="baño/despues.jpg" alt="Baño después de la remodelación">
+                    <p><strong>Después:</strong> Un baño moderno con acabados de lujo y mejor aprovechamiento del espacio.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Descripción del Proyecto -->
+        <div class="proyecto-descripcion">
+            <h2>Descripción del Proyecto</h2>
+            <p>
+                Este proyecto consistió en la remodelación completa de un baño en una vivienda residencial. El objetivo era modernizar el espacio, mejorar la funcionalidad y utilizar materiales de alta calidad. Se realizaron cambios en la distribución, se instalaron nuevos sanitarios, grifería de lujo y se añadió iluminación LED integrada.
+            </p>
+        </div>
+
+        <!-- Galería de Fotos -->
+        <div class="galeria">
+            <h2>Galería de Fotos</h2>
+            <div class="grid-galeria">
+                <div class="imagen-contenedor">
+                    <img src="baño/foto1.jpg" alt="Foto 1 del proyecto" class="imagen-galeria">
+                </div>
+                <div class="imagen-contenedor">
+                    <img src="baño/foto2.jpg" alt="Foto 2 del proyecto" class="imagen-galeria">
+                </div>
+                <div class="imagen-contenedor">
+                    <img src="baño/foto3.jpg" alt="Foto 3 del proyecto" class="imagen-galeria">
+                </div>
+                <div class="imagen-contenedor">
+                    <img src="baño/foto4.jpg" alt="Foto 4 del proyecto" class="imagen-galeria">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="cerrar-lightbox">&times;</span>
+        <img class="lightbox-imagen" id="lightbox-imagen">
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2023 Constructora FYM. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
